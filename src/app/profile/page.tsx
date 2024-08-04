@@ -1,3 +1,10 @@
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Profile",
+  description: "My profile",
+};
+
 export default function Profile() {
   return (
     <div>
